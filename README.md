@@ -1,1 +1,1 @@
-# color-the-box
+# blog-html-css-practice
