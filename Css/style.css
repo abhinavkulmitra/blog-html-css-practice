@@ -1,0 +1,173 @@
+
+body{background-color:rgb(204, 204, 204);
+    margin:0;
+}
+
+.link-title{
+    text-decoration:none;
+    font-size:24px;
+    color:#444444;
+
+}
+
+
+
+.container{
+    width:780px;
+    margin:0 auto;
+    background:#fff;
+    box-shadow: 0px 0px 20px 1px  rgb(143, 138, 138);
+
+    
+}
+
+.header{
+    padding:45px 0 20px 40px;
+    border:2px solid black;
+}
+    
+.menu{
+    background:#3b7687;
+    padding:6px 1px 6px 40px;
+
+}
+
+.menu a{
+    color: #c7e8f1;
+    text-decoration:none;
+    font-size:14px;
+    font-family: "arial narrow", "Myriad Pro";
+}
+
+.menu a:hover{
+    color: #f5f6f770;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding:30px 0 0 40px;
+}
+
+h1{
+    margin:0px;
+    color:#869843;
+    font-size: 24px;
+    font-family: "arial narrow", "Myriad Pro";
+    font-weight: bold;
+}
+
+h2{
+    color:#3b7687;
+    font-size:15px;
+    margin: 20px 5px 5px 5px;
+}
+
+.main{
+    margin:0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Geogia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+
+.main a:hover {
+    color:#444444;
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6d6;
+    font-family: "lucida Sans Unicode";
+    color:#444444;
+    font-size: 11px;
+    text-decoration: right;
+}
+
+footer a{
+    text-decoration: none;
+    color:#262626;
+}
+
+.separator{
+    color:#ffffff;
+    font-size:11px;
+}
+
+#home-img img{
+    
+    width:100%;
+
+}
+.page-heading{
+    text-align:center;
+}
+
+/* **********About-page styling************ */
+
+#about-page #home-img img{
+    
+    width:50%;
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#about-page #profile-info{
+    float:right;
+    width:40%;
+    margin: -25px -40px 0px;
+    
+}
+
+#about-page .description{
+    clear:both;
+    }
+
+#about-page p{
+    margin-left: -20px;} 
+
+    /* ************* Contact styling **************** */
+   
+#contact form {
+    
+    width: 500px;
+    border-left:9px solid rgb(175, 175, 223);
+    padding: 18px 10px 20px 44px;
+    margin: 10px 0px 0px 8px;
+    background: #f5f5f5;
+}
+
+#contact input {
+    width: 464px;
+    border-radius: 4px;
+    height: 18px;
+    background: #d2d8d8;
+    color: #474b4c;
+}
+
+#contact #message{
+    width: 464px;
+    background: #d2d8d8;
+    border-radius: 4px;
+    color: #474b4c;
+    height:70px;
+}
+
+#contact  #submit{
+    height: 30px;
+    margin-top: 18px;
+    width: 104px;
+    background: #3b7687;
+    color: #c7e8f1;
+}
+
+#contact  #parent{
+    text-align: center;
+}
+
+#contact #parent :hover{
+    color: #f5f6f770;
+}
